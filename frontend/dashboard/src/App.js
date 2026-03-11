@@ -7,7 +7,7 @@ import Downtime from './components/Downtime';
 import AIInsights from './components/AIInsights';
 import OvertimeBidding from './components/OvertimeBidding';
 
-const API = 'http://10.0.0.161:8000';
+const API = 'https://aerospace-erp-backend.onrender.com';
 
 export default function App() {
   const [page, setPage] = useState('dashboard');
